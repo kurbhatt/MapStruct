@@ -19,9 +19,11 @@ public class DataGenerator {
         A a2 = new A();
         a2.setId(3L);
         a2.setName("john");
+        a2.setbData(b);
         A a3 = new A();
         a3.setId(4L);
         a3.setName("doe");
+        a3.setbData(b);
 
         Set<A> aData = new HashSet<A>();
         aData.add(a2);
